@@ -1,0 +1,58 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  vertical-align: middle;
+  height: 70vh;
+  padding-top: 130px;
+}
+
+.banner h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 43px;
+  text-align: center;
+  color: #4F8A8B;
+}
+
+.banner h4 {
+  width: 829px;
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 20px;
+  color: black;
+  text-shadow: 1px 1px grey;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.300rem;
+  margin-left: -15px;
+}
+
+.banner h3 {
+  width: 580px;
+  font-family: Sacramento;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 102px;
+  margin-bottom: 25px;
+  margin-right: 8px;
+}
+
+.banner-content {
+  text-align: -webkit-center;
+  margin-top: -40px;
+  margin-left: 240px;
+}
+
+.info-input {
+  display: inline-flex;
+  /*align-content: center;
+  justify-content: space-evenly;*/
+}
+
+.form-control {
+  padding-right: 90px;
+  padding-left: 90px;
+  margin-right: 10px;
+  text-align: center;
+}

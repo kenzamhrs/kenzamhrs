@@ -1,0 +1,21 @@
+.btn-primary {
+  display: inline-block;
+  background-color: #FFCB74;
+  font-family: 'Montserrat', sans-serif;
+  padding: 13px 45px;
+  color: white;
+  font-size: 1.000rem;
+  letter-spacing: 2px;
+}
+
+.btn-primary a:hover {
+  color: white;
+  font-weight: solid;
+}
+
+/*.btn-secondary {
+  border: 1px solid #1EDD88;
+  padding: 8px 16px;
+  border-radius: 50px;
+  color: #1EDD88;
+}*/

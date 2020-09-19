@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFCB74;
+  transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+  /*position: fixed;  Sticky/fixed navbar */
+  width: 100%;
+  top: 0; /* At the top */
+  z-index: 99;
+}
+
+.navbar-brand {
+  padding-left: 25px;
+  display: inline-block;
+  font-size: 2.125rem;
+  white-space: nowrap;
+  font-family: 'Sacramento', cursive;
+}
+
+.nav-links {
+  padding-right: 40px;
+}
+
+.nav-links a {
+  align-items: center;
+  float: right;
+  display: flex;
+  color: black;
+  opacity: 1;
+  text-decoration: none;
+  font-size: 35px;
+  padding: 0px 30px;
+}
+
+.nav-links a:hover {
+  opacity: 0.70;
+}
+
+@media screen and (max-width: 580px) {
+  #navbar {
+    padding: 20px 10px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
+  }

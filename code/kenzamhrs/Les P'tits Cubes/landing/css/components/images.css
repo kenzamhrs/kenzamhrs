@@ -1,0 +1,51 @@
+.plane {
+  position: absolute;
+  width: 280px;
+  height: 261px;
+  right: 100px;
+  top: 180px;
+  background-size: contain;
+}
+
+.mailbox {
+  position: absolute;
+  width: 443px;
+  height: 384px;
+  left: 105px;
+  top: 200px;
+  background-size: contain;
+}
+
+.banner-icons {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  bottom: 100px;
+  justify-content: space-around;
+  margin: 0px 0px 0px 550px;
+}
+
+.madeinfrance {
+  width: 100px;
+  /*height: 98px;
+  left: 583px;
+  top: 724px;*/
+  background-size: contain;
+}
+
+.noplastic {
+  width: 115px;
+  /*height: 90px;
+  left: 857px;
+  top: 729px;*/
+  background-size: contain;
+}
+
+.naturel {
+  width: 116px;
+  height: 90px;
+  /*left: 1140px;
+  top: 729px;*/
+  background-size: contain;
+}
