@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <h2><%= @sale.title %></h2>
+      <p>
+        <%= number_to_currency(@sale.price, precision: 0, locale: :fr, unit: '€', format: "%n %u", delimiter: ' ') %>
+      </p>
+      <p>
+        <%= link_to 'Retour', sales_path %>
+      </p>
+    </div>
+  </div>
+</div>
