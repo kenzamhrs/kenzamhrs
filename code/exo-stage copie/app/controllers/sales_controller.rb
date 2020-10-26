@@ -5,5 +5,6 @@ class SalesController < ApplicationController
 
   def show
     @sale = Sale.find(params[:id])
+    @offer = Offer.new
   end
 end

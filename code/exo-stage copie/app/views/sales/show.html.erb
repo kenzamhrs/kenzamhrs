@@ -5,8 +5,21 @@
       <p>
         <%= number_to_currency(@sale.price, precision: 0, locale: :fr, unit: '€', format: "%n %u", delimiter: ' ') %>
       </p>
+      <%= form_for @offer, url: sale_offers_path(@sale), method: :post do |f| %>
+        <%= f.number_field :price, placeholder: 'Prix' %>
+        <%= f.text_field :name, placeholder: 'Nom' %>
+        <%= f.submit 'Valider' %>
+      <% end %>
       <p>
         <%= link_to 'Retour', sales_path %>
+      </p>
+
+      <p>Liste des offres</p>
+      <p>
+        <% @sale.offers.each do |offer| %>
+          <%= offer.name %>
+          <%= offer.price %>
+        <% end %>
       </p>
     </div>
   </div>
